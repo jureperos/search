@@ -1,5 +1,4 @@
-import {RastlineArr} from './data.js'
-
+const {RastlineArr} = require('./data.js')
 console.log(RastlineArr[1])
 
 const readline = require('readline');
