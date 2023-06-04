@@ -1,5 +1,4 @@
-const {RastlineArr} = require('./data.js')
-console.log(RastlineArr[1])
+const {RastlineArr} = require('./data.js');
 
 const readline = require('readline');
 
@@ -21,7 +20,6 @@ rl.question('search term: ', (searchTerm) => {
 function regSearch() {
 
     const regex = new RegExp(sTerm, 'i');
-    console.log(regex) 
 
     for (let i = 0; i <= RastlineArr.length -1; i++) {
         
